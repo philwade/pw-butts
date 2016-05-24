@@ -1,0 +1,16 @@
+{
+  "name": "pw-butts",
+  "version": "0.1.0",
+  "description": "An angular directive for butts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "angular",
+    "butts",
+    "directives"
+  ],
+  "author": "Phil Wade",
+  "license": "MIT"
+}
