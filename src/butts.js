@@ -3,6 +3,8 @@
 angular.module('pw-butts', [])
 	.provider('buttFactory', function() {
 		 var butts = {
+			greg: '<br>(-_-)<br> <))><br> /\\<br>',
+			wide: '(___|___)',
 			default: '(_I_)',
 		};
 
@@ -26,24 +28,36 @@ angular.module('pw-butts', [])
 	.directive('butt', ['buttFactory', function(buttFactory) {
 		return {
 			restrict: 'E',
-			template: buttFactory.getButt()
+			scope: {
+				type: '@'
+			},
+			template: function(element, attrs) {
+				return buttFactory.getButt(attrs.type)
+			}
 		};
 	}])
 	.directive('butts', function() {
 		return {
 			restrict: 'E',
 			scope: {
-				count: '@'
+				count: '@',
+				type: '@'
 			},
 			template: function(element, attrs) {
 				var butts = '';
 				var count = attrs.count;
+				var type = attrs.type;
 				if(!count) {
 					count = 3;
 				}
 
 				for(var i = 0; i < count; i++) {
-					butts += "<butt></butt>";
+					if(!type) {
+						butts += "<butt></butt>";
+					} else {
+						butts += "<butt type='" + type  + "'></butt>";
+					}
+
 				}
 				return butts;
 			}
