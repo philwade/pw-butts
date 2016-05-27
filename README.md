@@ -40,7 +40,7 @@ But we also support multiple butts... ```<butts></butts>```
 
 \(\_I\_\)\(\_I\_\)\(\_I\_\)\(\_I\_\)\(\_I\_\)
 
-Through the type attribute, there are a few varieties available: ```<butt type="wide"></butt>``` (this works for both <butt> and <butts>)
+Through the type attribute, there are a few varieties available: ```<butt type="wide"></butt>``` (this works for both ```<butt>``` and ```<butts>```)
 
 \(\_\_\_\|\_\_\_\)
 
