@@ -30,19 +30,19 @@ Now you're ready to put some butts out there.
 
 The easiest way to get a butt going is just ```<butt></butt>```
 
-```(_|_)```
+\(\_\|\_\)
 
 But we also support multiple butts... ```<butts></butts>```
 
-```(_I_)(_I_)(_I_)```
+\(\_I\_\)\(\_I\_\)\(\_I\_\)
 
 <butts> defaults to three, but takes a count attribute ```<butts count="5"></butts>
 
-```(_I_)(_I_)(_I_)(_I_)(_I_)```
+\(\_I\_\)\(\_I\_\)\(\_I\_\)\(\_I\_\)\(\_I\_\)
 
 Through the type attribute, there are a few varieties available: ```<butt type="wide"></butt>``` (this works for both <butt> and <butts>)
 
-```(___|___)```
+\(\_\_\_\|\_\_\_\)
 
 Right now supported types are ```wide, doublewide, raunchy and gross```.
 
