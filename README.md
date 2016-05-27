@@ -36,7 +36,7 @@ But we also support multiple butts... ```<butts></butts>```
 
 \(\_I\_\)\(\_I\_\)\(\_I\_\)
 
-<butts> defaults to three, but takes a count attribute ```<butts count="5"></butts>
+<butts> defaults to three, but takes a count attribute ```<butts count="5"></butts>```
 
 \(\_I\_\)\(\_I\_\)\(\_I\_\)\(\_I\_\)\(\_I\_\)
 
