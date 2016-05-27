@@ -11,10 +11,11 @@
     "butts",
     "directives"
   ],
-  repository: {
+  "repository": {
   	"type": "git",
 	"url": "https://github.com/philwade/pw-butts"
   },
+  "homepage": "http://philwade.github.io/pw-butts/",
   "author": "Phil Wade",
   "license": "MIT"
 }
