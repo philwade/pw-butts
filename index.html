@@ -1,0 +1,113 @@
+<!doctype html>
+<html ng-app="demo">
+	<head>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+	</head>
+
+	<body>
+		<md-content>
+			<md-toolbar>
+				<div class="md-toolbar-tools md-primary">
+					<h2 class="md-display-1">pw-butts, an angular directive for all your butts needs</h2>
+				</div>
+			</md-toolbar>
+			<md-content  layout="column" layout-padding layout-margin>
+				<div flex="100">
+					<md-toolbar class="md-accent">
+						<div class="md-toolbar-tools">
+							<h4>Introduction</h4>
+						</div>
+					</md-toolbar>
+					Have you ever been working on an angular app, misspelled a &lt;button&gt; tag and wished that &lt;butt&gt; was a real tag? Wish no more. pw-butts is an angular directive that fufills all your butt tag wishes.
+				</div>
+				<div flex="100">
+					<md-toolbar class="md-accent">
+						<div class="md-toolbar-tools">
+							<h4>Getting Started</h4>
+						</div>
+					</md-toolbar>
+
+					<h5>npm</h5>
+
+					<p>Like all legitimate libraries, pw-butts is available on npm</p>
+					<pre>
+						npm install pw-butts
+					</pre>
+
+					<h5>github</h5>
+
+					<p>If you'd rather not use npm, you can also clone the repo</p>
+					<pre>
+						git clone git@github.com:philwade/pw-butts.git
+					</pre>
+
+					<p>Once you have the code, include it as a dependency in your angular app.</p>
+
+					<pre>
+					&#x3C;script src=&#x22;path/to/pw-butts/src/butts.js&#x22;&#x3E;&#x3C;/script&#x3E;
+					&#x3C;script&#x3E;
+						var yourApp = angular.module(&#x27;demo&#x27;, [&#x27;pw-butts&#x27;]);
+					&#x3C;/script&#x3E;
+					<script src="path/to/pw-butts/src/butts.js"></script>
+					<script>
+						var yourApp = angular.module('demo', ['pw-butts']);
+					</script>
+					</pre>
+					<p>Now you're ready to put some butts out there.</p>
+				</div>
+				<div flex="100">
+					<md-toolbar class="md-accent">
+						<div class="md-toolbar-tools">
+							<h4>Basic Usage</h4>
+						</div>
+					</md-toolbar>
+					The easiest way to get a butt going is just  &lt;butt&gt;&lt;/butt&gt;</p>
+					<butt></butt>
+					<p>But we also support multiple butts:  &lt;butts&gt;&lt;/butts&gt;</p>
+					<butts></butts>
+					<p>&lt;butts&gt; defaults to three, but takes a count attribute:  &lt;butts count="5"&gt;&lt;/butts&gt;</p>
+					<butts count="5"></butts>
+					<p>Through the type attribute, there are a few varieties available: &lt;butt type="wide"&gt;&lt;/butt&gt; (this works for both &lt;butt&gt; and &lt;butts&gt;)</p>
+
+
+					<butt type="wide"></butt>
+					<p>Right now supported types are wide, doublewide, raunchy, gross, confused and crinkle.</p>
+				</div>
+				<div flex="100">
+					<md-toolbar class="md-accent">
+						<div class="md-toolbar-tools">
+							<h4>Advanced Configuration</h4>
+						</div>
+					</md-toolbar>
+					If the provided butts aren't enough for you, &lt;butt&gt; provides a configuration provider for setting them how you'd like globally.
+
+					<pre>
+					app.config(['buttFactoryProvider', function(buttFactoryProvider) {
+
+						// Set the default butt
+						buttFactoryProvider.setButt('(_0_)');
+
+						// Set your own named butt
+						buttFactoryProvider.setButt('(_:)_)', 'smile');
+
+						// setButt will also take an object to create new and override others
+						buttFactory.setButt({
+							wide: '[____|____]',
+							cash: '(_$_)'
+						});
+					}]);
+					</pre>
+				</div>
+			</md-content>
+			<butt></butt>
+		</md-content>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+	<script src="../src/butts.js"></script>
+	<script src="demo.js"></script>
+</html>
