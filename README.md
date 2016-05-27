@@ -1,18 +1,21 @@
 # pw-butts
-Have you ever been working on an angular app, misspelled a <button> tag and wished that <butt> was a real tag? Wish no more. pw-butts is an angular directive that fufills all your butt tag wishes.
+Have you ever been working on an angular app, misspelled a ```<button>``` tag and wished that ```<butt>``` was a real tag? Wish no more. pw-butts is an angular directive that fufills all your butt tag wishes.
 
 ## Getting Started
 
 ### npm
 
 Like all legitimate libraries, pw-butts is available on npm
-    npm install pw-butts
+```
+npm install pw-butts
+```
 
 ### github
 
 If you'd rather not use npm, you can also clone this repo
-    git clone git@github.com:philwade/pw-butts.git
-
+```
+git clone git@github.com:philwade/pw-butts.git
+```
 Once you have the code, include it as a dependency in your angular app.
 
 ```html
@@ -29,7 +32,7 @@ The easiest way to get a butt going is just ```<butt></butt>```
 
 ```(_|_)```
 
-But we also support multiple butts... ```<butts></butts```
+But we also support multiple butts... ```<butts></butts>```
 
 ```(_I_)(_I_)(_I_)```
 
