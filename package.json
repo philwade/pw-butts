@@ -1,8 +1,8 @@
 {
   "name": "pw-butts",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An angular directive for butts",
-  "main": "index.js",
+  "main": "src/butts.js",
   "scripts": {
     "test": "npm test"
   },
@@ -11,6 +11,10 @@
     "butts",
     "directives"
   ],
+  repository: {
+  	"type": "git",
+	"url": "https://github.com/philwade/pw-butts"
+  },
   "author": "Phil Wade",
   "license": "MIT"
 }
