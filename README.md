@@ -60,7 +60,7 @@ app.config(['buttFactoryProvider', function(buttFactoryProvider) {
 	buttFactoryProvider.setButt('(_:)_)', 'smile');
 
 	// setButt will also take an object to create new and override others
-	buttFactory.setButt({
+	buttFactoryProvider.setButt({
 		wide: '[____|____]',
 		cash: '(_$_)'
 	});
