@@ -1,6 +1,6 @@
 {
   "name": "pw-butts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An angular directive for butts",
   "main": "src/butts.js",
   "scripts": {
